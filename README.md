@@ -12,7 +12,7 @@ $tables = $this->db->list_tables();
 // Tabloları ve viewleri listeleme  
 foreach ($tables as $table){
 
-	// DB view olan dosyları bulma
+    // DB view olan dosyları bulma
     $konum = strpos($table, '_view');
     if($konum === false) $data_table[]= $table;
     else $data_view[]= $table;
@@ -31,7 +31,7 @@ $prefs = array(
     'filename' => 'backup.sql',                          // Dosya adı - (Dosya adına sadece zip formatında yedekleme yapılırsa ihtiyaç vardır)  
     'add_drop' => TRUE,                                  // DROP TABLE ifadelerinin yedekleme dosyasına eklenip eklenmeyeceği  
     'add_insert' => TRUE,                                // INSERT verilerini yedekleme dosyasına eklemek ister  
-    'newline' => "\n" 								     // Yedek dosyada kullanılan yeni satır karakteri  
+    'newline' => "\n" 					 // Yedek dosyada kullanılan yeni satır karakteri  
 );  
 $backup = $this->dbutil->backup($prefs);  
 $db_name = 'backup-'.date("d-m-Y-H-i-s").'.zip';  
