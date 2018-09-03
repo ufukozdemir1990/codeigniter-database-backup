@@ -1,35 +1,9 @@
-<!DOCTYPE html>
-<html>
+---
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ufuk</title>
-  <link rel="stylesheet" href="https://stackedit.io/style.css" />
-</head>
 
-<body class="stackedit">
-  <div class="stackedit__left">
-    <div class="stackedit__toc">
-      
-<ul>
-<li><a href="#codeigniter-database-backup">Codeigniter Database Backup</a>
-<ul>
-<li><a href="#gereksinimler">Gereksinimler</a></li>
-<li><a href="#kurulum">Kurulum</a>
-<ul>
-<li></li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
+---
 
-    </div>
-  </div>
-  <div class="stackedit__right">
-    <div class="stackedit__html">
-      <h1 id="codeigniter-database-backup">Codeigniter Database Backup</h1>
+<h1 id="codeigniter-database-backup">Codeigniter Database Backup</h1>
 <h2 id="gereksinimler">Gereksinimler</h2>
 <ol>
 <li>PHP 5.2+</li>
@@ -76,8 +50,3 @@
 <pre class=" language-php"><code class="prism  language-php"><span class="token function">force_download</span><span class="token punctuation">(</span><span class="token variable">$db_name</span><span class="token punctuation">,</span> <span class="token variable">$backup</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 </code></pre>
 
-    </div>
-  </div>
-</body>
-
-</html>
