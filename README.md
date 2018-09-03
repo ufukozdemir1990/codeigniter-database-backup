@@ -18,7 +18,7 @@ foreach ($tables as $table){
     else $data_view[]= $table;
 }
 ```
-> **Not:** İki farklı dizini tek bir değişkene atamak için array_merge($array1, $array2) kullanıyoruz. Bunun nedeni database'i import ederken önce tabloları eklemesi ve eklenen tablolara göre oluşturduğumuz view tablolarını eklemesi sağlamak. Aksi taktirde import işlemi sırasında hata alabilirsiniz.
+> **Not:** İki farklı dizini tek bir değişkene atamak için `array_merge($array1, $array2)` kullanıyoruz. Bunun nedeni database'i import ederken önce tabloları eklemesi ve eklenen tablolara göre oluşturduğumuz view tablolarını eklemesi sağlamak. Aksi taktirde import işlemi sırasında hata alabilirsiniz.
 #### Adım 2
 ---
 ```php
