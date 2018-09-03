@@ -1,8 +1,8 @@
 # Codeigniter Database Backup
 
 ## Gereksinimler
-1.  PHP 5.2+
-2.  CodeIgniter 2 veya üstü
+1.  PHP 5.6+
+2.  CodeIgniter 3+
 
 ## Kurulum
 #### Adım 1
